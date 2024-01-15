@@ -6,9 +6,9 @@
             <p class="text-center text-8xl">🍕</p>
             <p class="text-center text-8xl">🍕</p>
             <p class="text-center text-8xl">🍕</p>
-            <p class="text-center text-8xl">🍖</p>
-            <p class="text-center text-8xl">🥩</p>
-            <p class="text-center text-8xl">🍗</p>
+            <p class="text-center text-8xl">🥗</p>
+            <p class="text-center text-8xl">🥞</p>
+            <p class="text-center text-8xl">🥐</p>
             <p class="text-center text-8xl">🍘</p>
             <p class="text-center text-8xl">🍙</p>
             <p class="text-center text-8xl hidden md:block">🍚</p>
