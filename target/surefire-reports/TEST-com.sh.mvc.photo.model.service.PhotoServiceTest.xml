@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.sh.mvc.photo.model.service.PhotoServiceTest" time="0.018" tests="3" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.sh.mvc.photo.model.service.PhotoServiceTest" time="0.035" tests="3" errors="2" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="MS949"/>
-    <property name="java.class.path" value="C:\Workspaces\web_server_workspace\hello-mvc\target\test-classes;C:\Workspaces\web_server_workspace\hello-mvc\target\classes;C:\Users\user1\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.83\tomcat-embed-core-9.0.83.jar;C:\Users\user1\.m2\repository\org\apache\tomcat\tomcat-annotations-api\9.0.83\tomcat-annotations-api-9.0.83.jar;C:\Users\user1\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.83\tomcat-embed-websocket-9.0.83.jar;C:\Users\user1\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\user1\.m2\repository\com\oracle\database\jdbc\ojdbc8\23.2.0.0\ojdbc8-23.2.0.0.jar;C:\Users\user1\.m2\repository\com\oracle\database\security\oraclepki\19.21.0.0\oraclepki-19.21.0.0.jar;C:\Users\user1\.m2\repository\com\oracle\database\security\osdt_cert\19.21.0.0\osdt_cert-19.21.0.0.jar;C:\Users\user1\.m2\repository\com\oracle\database\security\osdt_core\19.21.0.0\osdt_core-19.21.0.0.jar;C:\Users\user1\.m2\repository\org\mybatis\mybatis\3.5.6\mybatis-3.5.6.jar;C:\Users\user1\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\user1\.m2\repository\commons-fileupload\commons-fileupload\1.5\commons-fileupload-1.5.jar;C:\Users\user1\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\user1\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\user1\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\user1\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\user1\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user1\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\user1\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\user1\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
+    <property name="java.class.path" value="C:\Workspaces\web_server_workspace\hello-mvc\target\test-classes;C:\Workspaces\web_server_workspace\hello-mvc\target\classes;C:\Users\JEONG\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.83\tomcat-embed-core-9.0.83.jar;C:\Users\JEONG\.m2\repository\org\apache\tomcat\tomcat-annotations-api\9.0.83\tomcat-annotations-api-9.0.83.jar;C:\Users\JEONG\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.83\tomcat-embed-websocket-9.0.83.jar;C:\Users\JEONG\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\JEONG\.m2\repository\com\oracle\database\jdbc\ojdbc8\23.2.0.0\ojdbc8-23.2.0.0.jar;C:\Users\JEONG\.m2\repository\com\oracle\database\security\oraclepki\19.21.0.0\oraclepki-19.21.0.0.jar;C:\Users\JEONG\.m2\repository\com\oracle\database\security\osdt_cert\19.21.0.0\osdt_cert-19.21.0.0.jar;C:\Users\JEONG\.m2\repository\com\oracle\database\security\osdt_core\19.21.0.0\osdt_core-19.21.0.0.jar;C:\Users\JEONG\.m2\repository\org\mybatis\mybatis\3.5.6\mybatis-3.5.6.jar;C:\Users\JEONG\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\JEONG\.m2\repository\commons-fileupload\commons-fileupload\1.5\commons-fileupload-1.5.jar;C:\Users\JEONG\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\JEONG\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\JEONG\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\JEONG\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\JEONG\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\JEONG\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\JEONG\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\JEONG\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="user.timezone" value="Asia/Seoul"/>
-    <property name="user.country.format" value="US"/>
     <property name="os.name" value="Windows 10"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="KR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\user1\AppData\Local\Temp\surefire4931597605309589127\surefirebooter-20240115093115569_3.jar C:\Users\user1\AppData\Local\Temp\surefire4931597605309589127 2024-01-15T09-31-15_337-jvmRun1 surefire-20240115093115569_1tmp surefire_0-20240115093115569_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\JEONG\AppData\Local\Temp\surefire6602022761672569728\surefirebooter-20240115123741426_3.jar C:\Users\JEONG\AppData\Local\Temp\surefire6602022761672569728 2024-01-15T12-37-41_051-jvmRun1 surefire-20240115123741426_1tmp surefire_0-20240115123741426_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Workspaces\web_server_workspace\hello-mvc\target\test-classes;C:\Workspaces\web_server_workspace\hello-mvc\target\classes;C:\Users\user1\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.83\tomcat-embed-core-9.0.83.jar;C:\Users\user1\.m2\repository\org\apache\tomcat\tomcat-annotations-api\9.0.83\tomcat-annotations-api-9.0.83.jar;C:\Users\user1\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.83\tomcat-embed-websocket-9.0.83.jar;C:\Users\user1\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\user1\.m2\repository\com\oracle\database\jdbc\ojdbc8\23.2.0.0\ojdbc8-23.2.0.0.jar;C:\Users\user1\.m2\repository\com\oracle\database\security\oraclepki\19.21.0.0\oraclepki-19.21.0.0.jar;C:\Users\user1\.m2\repository\com\oracle\database\security\osdt_cert\19.21.0.0\osdt_cert-19.21.0.0.jar;C:\Users\user1\.m2\repository\com\oracle\database\security\osdt_core\19.21.0.0\osdt_core-19.21.0.0.jar;C:\Users\user1\.m2\repository\org\mybatis\mybatis\3.5.6\mybatis-3.5.6.jar;C:\Users\user1\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\user1\.m2\repository\commons-fileupload\commons-fileupload\1.5\commons-fileupload-1.5.jar;C:\Users\user1\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\user1\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\user1\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\user1\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\user1\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user1\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\user1\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\user1\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Workspaces\web_server_workspace\hello-mvc\target\test-classes;C:\Workspaces\web_server_workspace\hello-mvc\target\classes;C:\Users\JEONG\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.83\tomcat-embed-core-9.0.83.jar;C:\Users\JEONG\.m2\repository\org\apache\tomcat\tomcat-annotations-api\9.0.83\tomcat-annotations-api-9.0.83.jar;C:\Users\JEONG\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.83\tomcat-embed-websocket-9.0.83.jar;C:\Users\JEONG\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\JEONG\.m2\repository\com\oracle\database\jdbc\ojdbc8\23.2.0.0\ojdbc8-23.2.0.0.jar;C:\Users\JEONG\.m2\repository\com\oracle\database\security\oraclepki\19.21.0.0\oraclepki-19.21.0.0.jar;C:\Users\JEONG\.m2\repository\com\oracle\database\security\osdt_cert\19.21.0.0\osdt_cert-19.21.0.0.jar;C:\Users\JEONG\.m2\repository\com\oracle\database\security\osdt_core\19.21.0.0\osdt_core-19.21.0.0.jar;C:\Users\JEONG\.m2\repository\org\mybatis\mybatis\3.5.6\mybatis-3.5.6.jar;C:\Users\JEONG\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\JEONG\.m2\repository\commons-fileupload\commons-fileupload\1.5\commons-fileupload-1.5.jar;C:\Users\JEONG\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\JEONG\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\JEONG\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\JEONG\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\JEONG\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\JEONG\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\JEONG\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\JEONG\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\user1"/>
+    <property name="user.home" value="C:\Users\JEONG"/>
     <property name="user.language" value="ko"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2023-08-24"/>
@@ -31,44 +30,43 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\user1\AppData\Local\Temp\surefire4931597605309589127\surefirebooter-20240115093115569_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\JEONG\AppData\Local\Temp\surefire6602022761672569728\surefirebooter-20240115123741426_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8.1+1"/>
-    <property name="user.name" value="user1"/>
+    <property name="user.name" value="JEONG"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="MS949"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="Temurin-17.0.8.1+1"/>
-    <property name="localRepository" value="C:\Users\user1\.m2\repository"/>
+    <property name="localRepository" value="C:\Users\JEONG\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
-    <property name="java.io.tmpdir" value="C:\Users\user1\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\JEONG\AppData\Local\Temp\"/>
     <property name="idea.version" value="2023.2.5"/>
     <property name="java.version" value="17.0.8.1"/>
     <property name="user.dir" value="C:\Workspaces\web_server_workspace\hello-mvc"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.language.format" value="en"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="MS949"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17\bin;C:\app\user1\product\21c\dbhomeXE\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Bandizip\;D:\Dropbox\Links;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\Vagrant\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\user1\.cargo\bin;C:\Users\user1\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.2\bin;C:\Users\user1\AppData\Roaming\npm;C:\Users\user1\AppData\Local\gitkraken\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17\bin;C:\app\JEONG\product\21c\dbhomeXE\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Bandizip\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\JEONG\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin;;C:\Users\JEONG\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
     <property name="java.vm.version" value="17.0.8.1+1"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="test" classname="com.sh.mvc.photo.model.service.PhotoServiceTest" time="0.001"/>
-  <testcase name="test1" classname="com.sh.mvc.photo.model.service.PhotoServiceTest" time="0.007">
-    <error message="&#10;### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.&#10;### The error may exist in mapper/photo/photo-mapper.xml&#10;### The error may involve photo.getTotalCount&#10;### The error occurred while executing a query&#10;### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible." type="org.apache.ibatis.exceptions.PersistenceException"><![CDATA[org.apache.ibatis.exceptions.PersistenceException: 
+  <testcase name="test" classname="com.sh.mvc.photo.model.service.PhotoServiceTest" time="0.003"/>
+  <testcase name="test1" classname="com.sh.mvc.photo.model.service.PhotoServiceTest" time="0.009">
+    <error message="&#10;### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.&#10;### The error may exist in mapper/photo/photo-mapper.xml&#10;### The error may involve photo.getTotalCount&#10;### The error occurred while executing a query&#10;### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible." type="org.apache.ibatis.exceptions.PersistenceException"><![CDATA[org.apache.ibatis.exceptions.PersistenceException: 
 
-### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 ### The error may exist in mapper/photo/photo-mapper.xml
 ### The error may involve photo.getTotalCount
 ### The error occurred while executing a query
-### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
@@ -80,7 +78,7 @@
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1083)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:863)
 	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1101)
@@ -105,7 +103,7 @@ Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in th
 	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
 	... 9 more
-Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.net.resolver.TNSNamesNamingAdapter.resolve(TNSNamesNamingAdapter.java:142)
 	at oracle.net.resolver.NameResolver.resolveName(NameResolver.java:177)
 	at oracle.net.resolver.AddrResolution.resolveTNSAddress(AddrResolution.java:884)
@@ -120,14 +118,14 @@ Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora 
 		... 37 more
 ]]></error>
   </testcase>
-  <testcase name="test2(int)" classname="com.sh.mvc.photo.model.service.PhotoServiceTest" time="0.006">
-    <error message="&#10;### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.&#10;### The error may exist in mapper/photo/photo-mapper.xml&#10;### The error may involve photo.getTotalCount&#10;### The error occurred while executing a query&#10;### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible." type="org.apache.ibatis.exceptions.PersistenceException"><![CDATA[org.apache.ibatis.exceptions.PersistenceException: 
+  <testcase name="test2(int)" classname="com.sh.mvc.photo.model.service.PhotoServiceTest" time="0.011">
+    <error message="&#10;### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.&#10;### The error may exist in mapper/photo/photo-mapper.xml&#10;### The error may involve photo.getTotalCount&#10;### The error occurred while executing a query&#10;### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible." type="org.apache.ibatis.exceptions.PersistenceException"><![CDATA[org.apache.ibatis.exceptions.PersistenceException: 
 
-### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 ### The error may exist in mapper/photo/photo-mapper.xml
 ### The error may involve photo.getTotalCount
 ### The error occurred while executing a query
-### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
@@ -172,7 +170,7 @@ Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora 
 		at java.base/java.util.stream.AbstractPipeline.close(AbstractPipeline.java:323)
 		at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:273)
 		... 9 more
-Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1083)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:863)
 	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1101)
@@ -197,7 +195,7 @@ Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in th
 	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
 	... 38 more
-Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.net.resolver.TNSNamesNamingAdapter.resolve(TNSNamesNamingAdapter.java:142)
 	at oracle.net.resolver.NameResolver.resolveName(NameResolver.java:177)
 	at oracle.net.resolver.AddrResolution.resolveTNSAddress(AddrResolution.java:884)

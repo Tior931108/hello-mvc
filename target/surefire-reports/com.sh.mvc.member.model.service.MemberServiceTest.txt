@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: com.sh.mvc.member.model.service.MemberServiceTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 5, Skipped: 6, Time elapsed: 0.077 s <<< FAILURE! - in com.sh.mvc.member.model.service.MemberServiceTest
-com.sh.mvc.member.model.service.MemberServiceTest.test2  Time elapsed: 0.009 s  <<< ERROR!
+Tests run: 12, Failures: 0, Errors: 5, Skipped: 6, Time elapsed: 0.078 s <<< FAILURE! - in com.sh.mvc.member.model.service.MemberServiceTest
+com.sh.mvc.member.model.service.MemberServiceTest.test2  Time elapsed: 0.007 s  <<< ERROR!
 org.apache.ibatis.exceptions.PersistenceException: 
 
-### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 ### The error may exist in mapper/member/member-mapper.xml
 ### The error may involve member.findById
 ### The error occurred while executing a query
-### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
@@ -20,7 +20,7 @@ org.apache.ibatis.exceptions.PersistenceException:
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1083)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:863)
 	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1101)
@@ -45,7 +45,7 @@ Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in th
 	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
 	... 8 more
-Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.net.resolver.TNSNamesNamingAdapter.resolve(TNSNamesNamingAdapter.java:142)
 	at oracle.net.resolver.NameResolver.resolveName(NameResolver.java:177)
 	at oracle.net.resolver.AddrResolution.resolveTNSAddress(AddrResolution.java:884)
@@ -59,14 +59,14 @@ Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora 
 		at oracle.net.resolver.HostnameNamingAdapter.resolve(HostnameNamingAdapter.java:183)
 		... 36 more
 
-com.sh.mvc.member.model.service.MemberServiceTest.test3  Time elapsed: 0.015 s  <<< ERROR!
+com.sh.mvc.member.model.service.MemberServiceTest.test3  Time elapsed: 0.014 s  <<< ERROR!
 org.apache.ibatis.exceptions.PersistenceException: 
 
-### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 ### The error may exist in mapper/member/member-mapper.xml
 ### The error may involve member.findById
 ### The error occurred while executing a query
-### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
@@ -77,7 +77,7 @@ org.apache.ibatis.exceptions.PersistenceException:
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1083)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:863)
 	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1101)
@@ -102,7 +102,7 @@ Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in th
 	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
 	... 8 more
-Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.net.resolver.TNSNamesNamingAdapter.resolve(TNSNamesNamingAdapter.java:142)
 	at oracle.net.resolver.NameResolver.resolveName(NameResolver.java:177)
 	at oracle.net.resolver.AddrResolution.resolveTNSAddress(AddrResolution.java:884)
@@ -116,14 +116,14 @@ Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora 
 		at oracle.net.resolver.HostnameNamingAdapter.resolve(HostnameNamingAdapter.java:183)
 		... 36 more
 
-com.sh.mvc.member.model.service.MemberServiceTest.test4  Time elapsed: 0.006 s  <<< ERROR!
+com.sh.mvc.member.model.service.MemberServiceTest.test4  Time elapsed: 0.01 s  <<< ERROR!
 org.apache.ibatis.exceptions.PersistenceException: 
 
-### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 ### The error may exist in mapper/member/member-mapper.xml
 ### The error may involve member.findAll
 ### The error occurred while executing a query
-### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
@@ -134,7 +134,7 @@ org.apache.ibatis.exceptions.PersistenceException:
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1083)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:863)
 	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1101)
@@ -159,7 +159,7 @@ Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in th
 	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
 	... 8 more
-Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.net.resolver.TNSNamesNamingAdapter.resolve(TNSNamesNamingAdapter.java:142)
 	at oracle.net.resolver.NameResolver.resolveName(NameResolver.java:177)
 	at oracle.net.resolver.AddrResolution.resolveTNSAddress(AddrResolution.java:884)
@@ -173,14 +173,14 @@ Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora 
 		at oracle.net.resolver.HostnameNamingAdapter.resolve(HostnameNamingAdapter.java:183)
 		... 36 more
 
-com.sh.mvc.member.model.service.MemberServiceTest.test5  Time elapsed: 0.012 s  <<< ERROR!
+com.sh.mvc.member.model.service.MemberServiceTest.test5  Time elapsed: 0.005 s  <<< ERROR!
 org.apache.ibatis.exceptions.PersistenceException: 
 
-### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 ### The error may exist in mapper/member/member-mapper.xml
 ### The error may involve member.findByName
 ### The error occurred while executing a query
-### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
@@ -190,7 +190,7 @@ org.apache.ibatis.exceptions.PersistenceException:
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1083)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:863)
 	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1101)
@@ -215,7 +215,7 @@ Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in th
 	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
 	... 7 more
-Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.net.resolver.TNSNamesNamingAdapter.resolve(TNSNamesNamingAdapter.java:142)
 	at oracle.net.resolver.NameResolver.resolveName(NameResolver.java:177)
 	at oracle.net.resolver.AddrResolution.resolveTNSAddress(AddrResolution.java:884)
@@ -229,14 +229,14 @@ Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora 
 		at oracle.net.resolver.HostnameNamingAdapter.resolve(HostnameNamingAdapter.java:183)
 		... 35 more
 
-com.sh.mvc.member.model.service.MemberServiceTest.test6  Time elapsed: 0.007 s  <<< ERROR!
+com.sh.mvc.member.model.service.MemberServiceTest.test6  Time elapsed: 0.005 s  <<< ERROR!
 org.apache.ibatis.exceptions.PersistenceException: 
 
-### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Error querying database.  Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 ### The error may exist in mapper/member/member-mapper.xml
 ### The error may involve member.findByGender
 ### The error occurred while executing a query
-### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+### Cause: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
@@ -246,7 +246,7 @@ org.apache.ibatis.exceptions.PersistenceException:
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.jdbc.driver.T4CConnection.handleLogonNetException(T4CConnection.java:1083)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:863)
 	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1101)
@@ -271,7 +271,7 @@ Caused by: java.sql.SQLException: ORA-12263: Failed to access tnsnames.ora in th
 	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
 	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
 	... 7 more
-Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /home/ubuntu/Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
+Caused by: oracle.net.ns.NetException: ORA-12263: Failed to access tnsnames.ora in the directory configured as TNS admin: /Wallet_YH5J45K2SD3FKWR9. The file does not exist, or is not accessible.
 	at oracle.net.resolver.TNSNamesNamingAdapter.resolve(TNSNamesNamingAdapter.java:142)
 	at oracle.net.resolver.NameResolver.resolveName(NameResolver.java:177)
 	at oracle.net.resolver.AddrResolution.resolveTNSAddress(AddrResolution.java:884)
